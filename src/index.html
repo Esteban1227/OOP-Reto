@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Document</title>
+</head>
+<body>  
+    <header class="header">
+        <h1 class="header__title">OOP Calculator</h1>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <div class="main-section-up">
+                <h2 class="main-section__title">Type the numbers</h2>
+                <label for="number1">
+                    Number 1
+                    <input class="main-section__input" type="text" id="input1" name="number1" placeholder="Eje: 1">
+                </label>
+                <label for="number2">
+                    Number 2
+                    <input class="main-section__input" type="text" id="input2" name="number2" placeholder="Eje: 2">
+                </label>
+                <label for="">
+                    Select the type of operation
+                    <select class="main-section__select" name="operation" id="select">
+                        <option value="1">addition</option>
+                        <option value="2">multiplication</option>
+                        <option value="3">division</option>
+                        <option value="4">all</option>
+                    </select>
+                </label>
+            </div>
+            <div class="main-section-down">
+                <span class="main-secction__result" id="result"></span>
+                <button class="main-section__button" id="btn">Calculate</button>
+            </div>
+        </section>
+    </main>
+    <!-- <script type="module" src="./index.js"></script> -->
+</body>
+</html>
